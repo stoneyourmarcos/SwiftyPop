@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87B242A851B788AB2ACE4B9D /* Pods_SwiftyPop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2086431A6ED3DAA29953AE /* Pods_SwiftyPop.framework */; };
 		BD23633F1E5D236800CBD831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23633E1E5D236800CBD831 /* AppDelegate.swift */; };
 		BD2363441E5D236800CBD831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2363421E5D236800CBD831 /* Main.storyboard */; };
-		BD2363461E5D236800CBD831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2363451E5D236800CBD831 /* Assets.xcassets */; };
 		BD2363491E5D236800CBD831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2363471E5D236800CBD831 /* LaunchScreen.storyboard */; };
+		BDF73C991E5D3C4100620C2F /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73C971E5D3C4100620C2F /* Moya.framework */; };
+		BDF73C9A1E5D3C4100620C2F /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73C971E5D3C4100620C2F /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BDF73C9B1E5D3C4100620C2F /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73C981E5D3C4100620C2F /* Unbox.framework */; };
+		BDF73C9C1E5D3C4100620C2F /* Unbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73C981E5D3C4100620C2F /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BDF73CA21E5D426200620C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF73CA01E5D426200620C2F /* Assets.xcassets */; };
+		BDF73CA31E5D426200620C2F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDF73CA11E5D426200620C2F /* Info.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BDF73C9D1E5D3C4100620C2F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BDF73C9A1E5D3C4100620C2F /* Moya.framework in Embed Frameworks */,
+				BDF73C9C1E5D3C4100620C2F /* Unbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		13A017180D5192283C8880F2 /* Pods-SwiftyPop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPop.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyPop/Pods-SwiftyPop.release.xcconfig"; sourceTree = "<group>"; };
-		5C2086431A6ED3DAA29953AE /* Pods_SwiftyPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD23633B1E5D236800CBD831 /* SwiftyPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD23633E1E5D236800CBD831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD2363431E5D236800CBD831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BD2363451E5D236800CBD831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		BD2363481E5D236800CBD831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BD23634A1E5D236800CBD831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
-		FA3DEA5237F2FBA580A661CF /* Pods-SwiftyPop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyPop/Pods-SwiftyPop.debug.xcconfig"; sourceTree = "<group>"; };
+		BDF73C971E5D3C4100620C2F /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		BDF73C981E5D3C4100620C2F /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = Carthage/Build/iOS/Unbox.framework; sourceTree = "<group>"; };
+		BDF73CA01E5D426200620C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF73CA11E5D426200620C2F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,29 +49,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87B242A851B788AB2ACE4B9D /* Pods_SwiftyPop.framework in Frameworks */,
+				BDF73C991E5D3C4100620C2F /* Moya.framework in Frameworks */,
+				BDF73C9B1E5D3C4100620C2F /* Unbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40B1CF1BD0D158DC320F010C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FA3DEA5237F2FBA580A661CF /* Pods-SwiftyPop.debug.xcconfig */,
-				13A017180D5192283C8880F2 /* Pods-SwiftyPop.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BD2363321E5D236800CBD831 = {
 			isa = PBXGroup;
 			children = (
+				BDF73C971E5D3C4100620C2F /* Moya.framework */,
+				BDF73C981E5D3C4100620C2F /* Unbox.framework */,
 				BD23633D1E5D236800CBD831 /* SwiftyPop */,
 				BD23633C1E5D236800CBD831 /* Products */,
-				40B1CF1BD0D158DC320F010C /* Pods */,
-				E3D4764A4B2EDD2EF2488D29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,13 +78,13 @@
 		BD23633D1E5D236800CBD831 /* SwiftyPop */ = {
 			isa = PBXGroup;
 			children = (
+				BDF73C9F1E5D426200620C2F /* Supporting Files */,
 				BD23633E1E5D236800CBD831 /* AppDelegate.swift */,
 				BD2363501E5D248800CBD831 /* Extensions */,
 				BD2363511E5D248800CBD831 /* Features */,
 				BD2363521E5D248800CBD831 /* Model */,
 				BD2363531E5D248800CBD831 /* Network */,
 				BD2363551E5D24AA00CBD831 /* Storyboards */,
-				BD2363541E5D248800CBD831 /* Supporting Files */,
 			);
 			path = SwiftyPop;
 			sourceTree = "<group>";
@@ -107,15 +117,6 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		BD2363541E5D248800CBD831 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BD2363451E5D236800CBD831 /* Assets.xcassets */,
-				BD23634A1E5D236800CBD831 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		BD2363551E5D24AA00CBD831 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,12 +126,13 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
-		E3D4764A4B2EDD2EF2488D29 /* Frameworks */ = {
+		BDF73C9F1E5D426200620C2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5C2086431A6ED3DAA29953AE /* Pods_SwiftyPop.framework */,
+				BDF73CA01E5D426200620C2F /* Assets.xcassets */,
+				BDF73CA11E5D426200620C2F /* Info.plist */,
 			);
-			name = Frameworks;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,12 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD23634D1E5D236800CBD831 /* Build configuration list for PBXNativeTarget "SwiftyPop" */;
 			buildPhases = (
-				B3D24ADD493BF6D818EE59D7 /* [CP] Check Pods Manifest.lock */,
 				BD2363371E5D236800CBD831 /* Sources */,
 				BD2363381E5D236800CBD831 /* Frameworks */,
 				BD2363391E5D236800CBD831 /* Resources */,
-				5CA64FEA29CE83C57B9DC08F /* [CP] Embed Pods Frameworks */,
-				5A79FA121E79C5F49AC88461 /* [CP] Copy Pods Resources */,
+				BDF73C9D1E5D3C4100620C2F /* Embed Frameworks */,
+				BDF73C9E1E5D418600620C2F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -196,8 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF73CA31E5D426200620C2F /* Info.plist in Resources */,
 				BD2363491E5D236800CBD831 /* LaunchScreen.storyboard in Resources */,
-				BD2363461E5D236800CBD831 /* Assets.xcassets in Resources */,
+				BDF73CA21E5D426200620C2F /* Assets.xcassets in Resources */,
 				BD2363441E5D236800CBD831 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,50 +207,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5A79FA121E79C5F49AC88461 /* [CP] Copy Pods Resources */ = {
+		BDF73C9E1E5D418600620C2F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Unbox.framework",
 			);
-			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyPop/Pods-SwiftyPop-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5CA64FEA29CE83C57B9DC08F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyPop/Pods-SwiftyPop-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B3D24ADD493BF6D818EE59D7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -378,11 +350,14 @@
 		};
 		BD23634E1E5D236800CBD831 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3DEA5237F2FBA580A661CF /* Pods-SwiftyPop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JF4H7Z8C5S;
-				INFOPLIST_FILE = SwiftyPop/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftyPop/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = stoneyourmarcos.SwiftyPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,11 +367,14 @@
 		};
 		BD23634F1E5D236800CBD831 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13A017180D5192283C8880F2 /* Pods-SwiftyPop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JF4H7Z8C5S;
-				INFOPLIST_FILE = SwiftyPop/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftyPop/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = stoneyourmarcos.SwiftyPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +401,7 @@
 				BD23634F1E5D236800CBD831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
