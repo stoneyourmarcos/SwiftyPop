@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1AAF531E5E772C001BFA85 /* SwiftyPopMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1AAF521E5E772C001BFA85 /* SwiftyPopMain.storyboard */; };
+		BD1AAF551E5E7BDC001BFA85 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1AAF541E5E7BDC001BFA85 /* Result.framework */; };
+		BD1AAF561E5E7BDC001BFA85 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD1AAF541E5E7BDC001BFA85 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BD23633F1E5D236800CBD831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23633E1E5D236800CBD831 /* AppDelegate.swift */; };
-		BD2363441E5D236800CBD831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2363421E5D236800CBD831 /* Main.storyboard */; };
 		BD2363491E5D236800CBD831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2363471E5D236800CBD831 /* LaunchScreen.storyboard */; };
 		BDF73C991E5D3C4100620C2F /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73C971E5D3C4100620C2F /* Moya.framework */; };
 		BDF73C9A1E5D3C4100620C2F /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73C971E5D3C4100620C2F /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -16,6 +18,25 @@
 		BDF73C9C1E5D3C4100620C2F /* Unbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73C981E5D3C4100620C2F /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BDF73CA21E5D426200620C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF73CA01E5D426200620C2F /* Assets.xcassets */; };
 		BDF73CA31E5D426200620C2F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDF73CA11E5D426200620C2F /* Info.plist */; };
+		BDF73CA51E5D435B00620C2F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CA41E5D435B00620C2F /* WebService.swift */; };
+		BDF73CA71E5D484B00620C2F /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CA61E5D484B00620C2F /* APIProvider.swift */; };
+		BDF73CAB1E5D48DD00620C2F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73CAA1E5D48DD00620C2F /* Alamofire.framework */; };
+		BDF73CAC1E5D48DD00620C2F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73CAA1E5D48DD00620C2F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BDF73CAE1E5E02E900620C2F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CAD1E5E02E900620C2F /* APIManager.swift */; };
+		BDF73CB01E5E03D400620C2F /* RepositoriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CAF1E5E03D400620C2F /* RepositoriesList.swift */; };
+		BDF73CB21E5E041C00620C2F /* PullRequestsFromRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CB11E5E041C00620C2F /* PullRequestsFromRepository.swift */; };
+		BDF73CB41E5E138800620C2F /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CB31E5E138800620C2F /* NetworkResult.swift */; };
+		BDF73CB81E5E17CC00620C2F /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73CB71E5E17CC00620C2F /* PromiseKit.framework */; };
+		BDF73CB91E5E17CC00620C2F /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73CB71E5E17CC00620C2F /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BDF73CBB1E5E227B00620C2F /* Date+SwiftyPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CBA1E5E227B00620C2F /* Date+SwiftyPop.swift */; };
+		BDF73CBE1E5E237B00620C2F /* RepositoriesListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CBD1E5E237A00620C2F /* RepositoriesListCellViewModel.swift */; };
+		BDF73CC11E5E2AB800620C2F /* PullRequestsFromRepositoryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CC01E5E2AB800620C2F /* PullRequestsFromRepositoryCellViewModel.swift */; };
+		BDF73CC31E5E2CDE00620C2F /* RepositoriesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CC21E5E2CDE00620C2F /* RepositoriesListCell.swift */; };
+		BDF73CC51E5E364900620C2F /* RepositoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CC41E5E364900620C2F /* RepositoriesListViewController.swift */; };
+		BDF73CC71E5E369400620C2F /* PullRequestsFromRepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CC61E5E369400620C2F /* PullRequestsFromRepositoryViewController.swift */; };
+		BDF73CC91E5E379700620C2F /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73CC81E5E379700620C2F /* SDWebImage.framework */; };
+		BDF73CCA1E5E379700620C2F /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BDF73CC81E5E379700620C2F /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BDF73CCC1E5E38B500620C2F /* PullRequestsFromRepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF73CCB1E5E38B500620C2F /* PullRequestsFromRepositoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +46,12 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BDF73CCA1E5E379700620C2F /* SDWebImage.framework in Embed Frameworks */,
 				BDF73C9A1E5D3C4100620C2F /* Moya.framework in Embed Frameworks */,
+				BDF73CAC1E5D48DD00620C2F /* Alamofire.framework in Embed Frameworks */,
+				BD1AAF561E5E7BDC001BFA85 /* Result.framework in Embed Frameworks */,
 				BDF73C9C1E5D3C4100620C2F /* Unbox.framework in Embed Frameworks */,
+				BDF73CB91E5E17CC00620C2F /* PromiseKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,14 +59,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BD1AAF521E5E772C001BFA85 /* SwiftyPopMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SwiftyPopMain.storyboard; sourceTree = "<group>"; };
+		BD1AAF541E5E7BDC001BFA85 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		BD23633B1E5D236800CBD831 /* SwiftyPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD23633E1E5D236800CBD831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD2363431E5D236800CBD831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD2363481E5D236800CBD831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDF73C971E5D3C4100620C2F /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
 		BDF73C981E5D3C4100620C2F /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = Carthage/Build/iOS/Unbox.framework; sourceTree = "<group>"; };
 		BDF73CA01E5D426200620C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF73CA11E5D426200620C2F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF73CA41E5D435B00620C2F /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		BDF73CA61E5D484B00620C2F /* APIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		BDF73CAA1E5D48DD00620C2F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		BDF73CAD1E5E02E900620C2F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BDF73CAF1E5E03D400620C2F /* RepositoriesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesList.swift; sourceTree = "<group>"; };
+		BDF73CB11E5E041C00620C2F /* PullRequestsFromRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsFromRepository.swift; sourceTree = "<group>"; };
+		BDF73CB31E5E138800620C2F /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		BDF73CB71E5E17CC00620C2F /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+		BDF73CBA1E5E227B00620C2F /* Date+SwiftyPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+SwiftyPop.swift"; sourceTree = "<group>"; };
+		BDF73CBD1E5E237A00620C2F /* RepositoriesListCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesListCellViewModel.swift; sourceTree = "<group>"; };
+		BDF73CC01E5E2AB800620C2F /* PullRequestsFromRepositoryCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsFromRepositoryCellViewModel.swift; sourceTree = "<group>"; };
+		BDF73CC21E5E2CDE00620C2F /* RepositoriesListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesListCell.swift; sourceTree = "<group>"; };
+		BDF73CC41E5E364900620C2F /* RepositoriesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesListViewController.swift; sourceTree = "<group>"; };
+		BDF73CC61E5E369400620C2F /* PullRequestsFromRepositoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsFromRepositoryViewController.swift; sourceTree = "<group>"; };
+		BDF73CC81E5E379700620C2F /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		BDF73CCB1E5E38B500620C2F /* PullRequestsFromRepositoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsFromRepositoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF73CC91E5E379700620C2F /* SDWebImage.framework in Frameworks */,
 				BDF73C991E5D3C4100620C2F /* Moya.framework in Frameworks */,
+				BDF73CAB1E5D48DD00620C2F /* Alamofire.framework in Frameworks */,
+				BD1AAF551E5E7BDC001BFA85 /* Result.framework in Frameworks */,
+				BDF73CB81E5E17CC00620C2F /* PromiseKit.framework in Frameworks */,
 				BDF73C9B1E5D3C4100620C2F /* Unbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +106,10 @@
 		BD2363321E5D236800CBD831 = {
 			isa = PBXGroup;
 			children = (
+				BD1AAF541E5E7BDC001BFA85 /* Result.framework */,
+				BDF73CC81E5E379700620C2F /* SDWebImage.framework */,
+				BDF73CB71E5E17CC00620C2F /* PromiseKit.framework */,
+				BDF73CAA1E5D48DD00620C2F /* Alamofire.framework */,
 				BDF73C971E5D3C4100620C2F /* Moya.framework */,
 				BDF73C981E5D3C4100620C2F /* Unbox.framework */,
 				BD23633D1E5D236800CBD831 /* SwiftyPop */,
@@ -78,13 +128,13 @@
 		BD23633D1E5D236800CBD831 /* SwiftyPop */ = {
 			isa = PBXGroup;
 			children = (
-				BDF73C9F1E5D426200620C2F /* Supporting Files */,
 				BD23633E1E5D236800CBD831 /* AppDelegate.swift */,
 				BD2363501E5D248800CBD831 /* Extensions */,
 				BD2363511E5D248800CBD831 /* Features */,
 				BD2363521E5D248800CBD831 /* Model */,
 				BD2363531E5D248800CBD831 /* Network */,
 				BD2363551E5D24AA00CBD831 /* Storyboards */,
+				BDF73C9F1E5D426200620C2F /* Supporting Files */,
 			);
 			path = SwiftyPop;
 			sourceTree = "<group>";
@@ -92,6 +142,7 @@
 		BD2363501E5D248800CBD831 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BDF73CBA1E5E227B00620C2F /* Date+SwiftyPop.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -99,6 +150,8 @@
 		BD2363511E5D248800CBD831 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				BDF73CBF1E5E2A8700620C2F /* PullRequestsFromRepository */,
+				BDF73CBC1E5E234100620C2F /* RepositoriesList */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -106,6 +159,8 @@
 		BD2363521E5D248800CBD831 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BDF73CAF1E5E03D400620C2F /* RepositoriesList.swift */,
+				BDF73CB11E5E041C00620C2F /* PullRequestsFromRepository.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,6 +168,10 @@
 		BD2363531E5D248800CBD831 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				BDF73CA41E5D435B00620C2F /* WebService.swift */,
+				BDF73CA61E5D484B00620C2F /* APIProvider.swift */,
+				BDF73CAD1E5E02E900620C2F /* APIManager.swift */,
+				BDF73CB31E5E138800620C2F /* NetworkResult.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -120,8 +179,7 @@
 		BD2363551E5D24AA00CBD831 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				BD2363421E5D236800CBD831 /* Main.storyboard */,
-				BD2363471E5D236800CBD831 /* LaunchScreen.storyboard */,
+				BD1AAF521E5E772C001BFA85 /* SwiftyPopMain.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -129,10 +187,31 @@
 		BDF73C9F1E5D426200620C2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD2363471E5D236800CBD831 /* LaunchScreen.storyboard */,
 				BDF73CA01E5D426200620C2F /* Assets.xcassets */,
 				BDF73CA11E5D426200620C2F /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDF73CBC1E5E234100620C2F /* RepositoriesList */ = {
+			isa = PBXGroup;
+			children = (
+				BDF73CBD1E5E237A00620C2F /* RepositoriesListCellViewModel.swift */,
+				BDF73CC21E5E2CDE00620C2F /* RepositoriesListCell.swift */,
+				BDF73CC41E5E364900620C2F /* RepositoriesListViewController.swift */,
+			);
+			name = RepositoriesList;
+			sourceTree = "<group>";
+		};
+		BDF73CBF1E5E2A8700620C2F /* PullRequestsFromRepository */ = {
+			isa = PBXGroup;
+			children = (
+				BDF73CC01E5E2AB800620C2F /* PullRequestsFromRepositoryCellViewModel.swift */,
+				BDF73CCB1E5E38B500620C2F /* PullRequestsFromRepositoryCell.swift */,
+				BDF73CC61E5E369400620C2F /* PullRequestsFromRepositoryViewController.swift */,
+			);
+			name = PullRequestsFromRepository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +279,7 @@
 				BDF73CA31E5D426200620C2F /* Info.plist in Resources */,
 				BD2363491E5D236800CBD831 /* LaunchScreen.storyboard in Resources */,
 				BDF73CA21E5D426200620C2F /* Assets.xcassets in Resources */,
-				BD2363441E5D236800CBD831 /* Main.storyboard in Resources */,
+				BD1AAF531E5E772C001BFA85 /* SwiftyPopMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +294,10 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Unbox.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 			);
 			outputPaths = (
 			);
@@ -229,27 +312,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF73CB21E5E041C00620C2F /* PullRequestsFromRepository.swift in Sources */,
+				BDF73CBE1E5E237B00620C2F /* RepositoriesListCellViewModel.swift in Sources */,
+				BDF73CA51E5D435B00620C2F /* WebService.swift in Sources */,
+				BDF73CBB1E5E227B00620C2F /* Date+SwiftyPop.swift in Sources */,
+				BDF73CCC1E5E38B500620C2F /* PullRequestsFromRepositoryCell.swift in Sources */,
+				BDF73CAE1E5E02E900620C2F /* APIManager.swift in Sources */,
 				BD23633F1E5D236800CBD831 /* AppDelegate.swift in Sources */,
+				BDF73CC51E5E364900620C2F /* RepositoriesListViewController.swift in Sources */,
+				BDF73CC31E5E2CDE00620C2F /* RepositoriesListCell.swift in Sources */,
+				BDF73CA71E5D484B00620C2F /* APIProvider.swift in Sources */,
+				BDF73CB01E5E03D400620C2F /* RepositoriesList.swift in Sources */,
+				BDF73CC71E5E369400620C2F /* PullRequestsFromRepositoryViewController.swift in Sources */,
+				BDF73CB41E5E138800620C2F /* NetworkResult.swift in Sources */,
+				BDF73CC11E5E2AB800620C2F /* PullRequestsFromRepositoryCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BD2363421E5D236800CBD831 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD2363431E5D236800CBD831 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD2363471E5D236800CBD831 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BD2363481E5D236800CBD831 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -339,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

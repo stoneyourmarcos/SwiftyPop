@@ -1,2 +1,4 @@
 github "Moya/Moya"
 github "johnsundell/unbox"
+github "PromiseKit/MapKit"
+github "rs/SDWebImage"
